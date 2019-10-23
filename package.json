@@ -26,5 +26,23 @@
   "ci": {
     "version": "8"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akos/akos-egg-boilerplate-sequelize.git"
+  },
+  "keywords": [
+    "akos",
+    "egg",
+    "koa",
+    "sequelize",
+    "boilerplate"
+  ],
+  "author": "Alps_Lin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akos/akos-egg-boilerplate-sequelize/issues"
+  },
+  "homepage": "https://github.com/akos/akos-egg-boilerplate-sequelize#readme"
 }

@@ -1,4 +1,4 @@
-# akos-egg-boilerplate-simple
+# akos-egg-boilerplate-sequelize
 
 Boilerplate for akos-egg quickstart. 
 Part of the template for internal use only, not open source.Such as openId, cloud resources, forming a template such as provided in the Intranet.
@@ -9,7 +9,7 @@ Part of the template for internal use only, not open source.Such as openId, clou
 
 ```bash
 $ npm i -g akos-boilerplate-init
-$ akos-boilerplate-init --type simple showcase
+$ akos-boilerplate-init --type sequelize showcase
 $ cd showcase
 $ npm i
 $ npm run dev
