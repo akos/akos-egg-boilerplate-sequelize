@@ -22,5 +22,5 @@ See [akos-boilerplate-init](https://github.com/akos/akos-boilerplate-init) for m
 Difference between platform plug-in, the extension is mainly for app prototype modification, or increase the complex or internal business middleware
 
 ## other
-1.Provide basic type of middleware base on the cloud resource
-2.Provide the extension development plugin base on the cloud resource# akos-egg-boilerplate-sequelize
+1. Provide basic type of middleware base on the cloud resource
+2. Provide the extension development plugin base on the cloud resource# akos-egg-boilerplate-sequelize
