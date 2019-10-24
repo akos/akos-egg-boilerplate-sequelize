@@ -9,7 +9,7 @@ Part of the template for internal use only, not open source.Such as openId, clou
 
 ```bash
 $ npm i -g akos-boilerplate-init
-$ akos-boilerplate-init --type sequelize showcase
+$ akos-boilerplate-init --type akos-sequelize showcase
 $ cd showcase
 $ npm i
 $ npm run dev
