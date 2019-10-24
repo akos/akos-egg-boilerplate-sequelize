@@ -8,8 +8,8 @@
 
 see [akos docs][akos][egg docs][egg] for more detail.
 ### Preparation
-1.Create the database base on 「/sql/user.sql」;
-2.Completion 「/app/config/config.default.js」-> exports. Sequelize information.
+1. Create the database base on 「/sql/user.sql」;
+2. Completion 「/app/config/config.default.js」-> exports. Sequelize information.
 
 ```js
 exports.sequelize = {
