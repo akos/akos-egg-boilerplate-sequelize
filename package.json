@@ -1,6 +1,6 @@
 {
   "name": "akos-egg-boilerplate-sequelize",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "boilerplate with sequelize for akos-egg quickstart",
   "scripts": {
     "autod": "autod",
