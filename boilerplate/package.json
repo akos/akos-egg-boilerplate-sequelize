@@ -1,6 +1,6 @@
 {
   "name": "@akos/egg-boilerplate",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": " a template for egg.js",
   "main": "app.js",
   "keywords": [
