@@ -1,7 +1,7 @@
 {
-  "name": "@akos/egg-boilerplate",
-  "version": "0.0.1",
-  "description": " a template for egg.js",
+  "name": "akos-egg-boilerplate-sequelize",
+  "version": "1.0.0",
+  "description": "boilerplate with sequelize for akos-egg quickstart",
   "main": "app.js",
   "keywords": [
     "akos",

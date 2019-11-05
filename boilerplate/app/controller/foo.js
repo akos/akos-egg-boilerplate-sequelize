@@ -14,8 +14,8 @@ class FooController extends BaseController {
 
     async render2() {
         const ctx = this.ctx;
-        const a = ctx.service.hello.getHello()
-        ctx.setBodyContent(200, a)
+        const a = ctx.service.hello.getHello();
+        ctx.setBodyContent(200, a);
     }
 
     async render3() {
