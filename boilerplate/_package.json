@@ -2,45 +2,62 @@
   "name": "{{name}}",
   "version": "1.0.0",
   "description": "{{description}}",
-  "private": true,
-  "egg": {
-    "declarations": true
-  },
+  "main": "app.js",
+  "keywords": [
+    "akos",
+    "egg",
+    "node.js",
+    "javascript",
+    "vusion"
+  ],
+  "author": "{{author}}",
+  "license": "ISC",
   "dependencies": {
-    "egg": "^2.15.1",
-    "egg-scripts": "^2.11.0"
+    "bunyan": "^1.8.12",
+    "chalk": "^2.4.2",
+    "debug": "^3.1.0",
+    "egg": "^2.23.0",
+    "egg-scripts": "^2.11.0",
+    "egg-sequelize": "^5.2.0",
+    "egg-view-nunjucks": "^2.2.0",
+    "is-type-of": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa-better-body": "~3.0.4",
+    "koa-body": "~4.1.1",
+    "lodash": "~4.17.15",
+    "module-alias": "^2.2.1",
+    "moment": "^2.24.0",
+    "mysql2": "^1.7.0",
+    "mz-modules": "^2.1.0",
+    "on-finished": "^2.3.0",
+    "path-to-regexp": "^3.1.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "uuid": "^3.1.0"
   },
   "devDependencies": {
-    "autod": "^3.0.1",
-    "autod-egg": "^1.1.0",
-    "egg-bin": "^4.11.0",
-    "egg-ci": "^1.11.0",
-    "egg-mock": "^3.21.0",
-    "eslint": "^5.13.0",
-    "eslint-config-egg": "^7.1.0"
-  },
-  "engines": {
-    "node": ">=10.0.0"
+    "egg-bin": "^4.3.5",
+    "egg-mock": "^3.13.1"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-{{name}}",
-    "stop": "egg-scripts stop --title=egg-server-{{name}}",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
-    "test": "npm run lint -- --fix && npm run test-local",
     "test-local": "egg-bin test",
+    "test": "npm run lint -- --fix && npm run test-local",
     "cov": "egg-bin cov",
     "lint": "eslint .",
-    "ci": "npm run lint && npm run cov",
-    "autod": "autod"
+    "pkgfiles": "egg-bin pkgfiles",
+    "autod": "egg-bin autod",
+    "start": "egg-scripts start --daemon",
+    "stop": "egg-scripts stop",
+    "sequelize": "sequelize --"
   },
-  "ci": {
-    "version": "10"
+  "_moduleAliases": {
+    "@": "./app",
+    "~": "./"
   },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "author": "{{author}}",
-  "license": "MIT"
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
 }
